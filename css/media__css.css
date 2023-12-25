@@ -1,0 +1,227 @@
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 40px;
+    }
+
+    .intro {
+        background-position-x: 70%;
+    }
+
+    .info__text {
+        font-size: 14px;
+    }
+    .info__image {
+        height: 300px;
+    }
+    .footer {
+        padding: 75px 0;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .burger { display: flex }
+
+    .burger.active {
+        position: fixed;
+    }
+
+    .nav.nav-header {
+       opacity: 0;
+        pointer-events: none;
+        flex-direction: column;
+        align-items: flex-end;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 74px 100px;
+        background-color: rgba(0, 0, 0, 0.85);
+        animation: burgerAnimation 0.4s;
+        display: flex;
+        transition: all .5s;
+
+    }
+    .nav.nav-header.open {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .nav.nav-header a{
+        display: inline-flex;
+    }
+
+
+
+    .intro__title {
+        font-size: 46px;
+        margin: 0 0 12px 0;
+
+    }
+
+
+    .intro__text {
+        margin: 0 0 30px;
+    }
+
+    .intro__wrapper {
+        min-height: 500px;
+    }
+
+    .intro {
+        background-position-x: 70%;
+        padding-top: 85px;
+    }
+
+    .info__block {
+        flex-direction: column;
+        max-width: 600px;
+        margin: 0 auto 80px auto;
+    }
+    .info__image {
+         height: 100%;
+    }
+    .nav__link {
+        font-size: 14px;
+    }
+
+    .block__title {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 785.8px) {
+    .nav.nav-header {
+        padding: 74px 240px;
+    }
+
+    .info__img-wrapper {
+        display: none
+    }
+
+    .info__block {
+        border-radius: 10px;
+    }
+    .info__item {
+        background-image: url(../img/info_img.png);
+        background-position-x: 70%;
+        background-position-y: 50%;
+        background-repeat: no-repeat;
+        position: relative;
+        border-radius: 20px;
+        padding: 25px 20px;
+    }
+    .info__item::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.74);
+        z-index: 5;
+    }
+    .info__title {
+        position: relative;
+        z-index: 10;
+        text-align: center;
+    }
+    .info__text {
+        position: relative;
+        z-index: 10;
+    }
+    .intro__title,
+    .intro__text{
+        text-align: center;
+    }
+    .intro__actions {
+        justify-content: center;
+    }
+    .products__block {
+        min-width: 220px;
+    }
+    .products__wrapper {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .products__title {
+        font-size: 16px;
+    }
+    .products__price {
+        font-size: 15px;
+    }
+    .products__price del {
+        margin: 0 0 0 20px;
+    }
+    .info__block {
+        margin: 0 auto 60px auto;
+    }
+    .products__wrapper {
+        margin: 0 -10px 60px;
+    }
+    .news__block {
+        width: 50%;
+        min-width: 280px;
+    }
+
+    .news__wrapper {
+        margin: 0 -10px 40px;
+        justify-content: center;
+    }
+
+    .block__title {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .footer {
+        padding: 60px 0;
+    }
+
+    .footer__wrapper {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 35px;
+    }
+
+    .footer__block-1 { grid-area: 1 / 1 / 3 / 2; }
+    .footer__block-2 { grid-area: 1 / 2 / 2 / 3; }
+    .footer__block-3 { grid-area: 2 / 2 / 3 / 3; }
+
+    .nav-footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .footer__block {
+        width: 100%;
+    }
+    .info__text {
+         max-width: 100%;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+    .nav-footer {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
