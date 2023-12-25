@@ -164,7 +164,7 @@ body {
 
 
 .nav {
-    display: flex;
+    display: inline-flex;
     gap: 35px;
 }
 
@@ -193,7 +193,7 @@ body {
 
 
 .logo img {
-    height: 54px;
+    height: 34px;
     display: block;
 }
 
@@ -218,7 +218,7 @@ body {
 }
 
 .intro {
-    background-image: url(../img/intro_image.jpg);
+    background-image: url(../img/intro_image2.jpg);
     background-position-x: 50%;
     background-position-y: 50%;
     background-repeat: no-repeat;
@@ -450,10 +450,19 @@ body {
 }
 
 .footer__block {
+    display: flex;
     width: 33.33%;
     padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer__block-1 {
+    display: flex;
 }
 
 .footer__logo img {
-    width: 186px;
+    height: 40px;
 }
+
