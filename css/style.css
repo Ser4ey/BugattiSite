@@ -37,16 +37,19 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     border-radius: 10px;
-    background-color: #C7A17A;
+    background-color: rgba(199, 161, 122, 0.7);
     padding: 0 20px;
     transition: background-color .2s ease;
 }
 
 .btn-main {
-    background-color: #C7A17A;
+    /*background-color: #C7A17A;*/
+    background-color: rgba(199, 161, 122, 0.7);
+
 }
+
 .btn-main:hover {
-    background-color: rgba(206, 151, 94, 0.8);
+    background-color: rgba(206, 151, 94, 0.5);
 }
 
 .btn-secondary {
@@ -218,7 +221,8 @@ body {
 }
 
 .intro {
-    background-image: url(../img/intro_image2.jpg);
+    background-image: url(../img/intro_image.jpg);
+    height: 720px;
     background-position-x: 50%;
     background-position-y: 50%;
     background-repeat: no-repeat;
@@ -246,6 +250,7 @@ body {
 
 .intro__block {
     max-width: 565px;
+    padding-bottom: 100px;
 }
 
 .intro__title {
