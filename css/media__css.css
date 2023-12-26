@@ -49,14 +49,15 @@
         display: inline-flex;
     }
 
-
+    .block__title1 {
+        text-align: center;
+    }
 
     .intro__title {
         font-size: 46px;
         margin: 0 0 12px 0;
 
     }
-
 
     .intro__text {
         margin: 0 0 30px;
@@ -215,6 +216,13 @@
     }
 
 
+}
+
+@media (max-width: 659.9px) {
+    .news__block {
+        width: 50%;
+        min-width: 300px;
+    }
 }
 
 @media (max-width: 590px) {
