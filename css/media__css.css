@@ -106,6 +106,7 @@
         background-position-x: 70%;
         background-position-y: 75%;
         background-repeat: no-repeat;
+        background-size: cover;
         position: relative;
         border-radius: 20px;
         padding: 25px 20px;
