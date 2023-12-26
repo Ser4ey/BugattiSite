@@ -173,16 +173,6 @@ body {
     gap: 30px;
 }
 
-.header__link-event {
-    display: block;
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    background-color: #C7A17A;
-    border-radius: 50%;
-    right: -3px;
-    top: -3px;
-}
 
 .intro {
     background-image: url(../img/intro_image.jpg);
