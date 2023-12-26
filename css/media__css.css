@@ -90,6 +90,10 @@
 }
 
 @media (max-width: 785.8px) {
+    .intro__block {
+        max-width: 100%;
+    }
+
     .nav.nav-header {
         padding: 74px 240px;
     }
@@ -130,10 +134,15 @@
         position: relative;
         z-index: 10;
     }
-    .intro__title,
-    .intro__text{
+    .intro__title{
+        text-align: center;
+        font-size: 40px;
+    }
+    .intro__text {
+        font-size: 12px;
         text-align: center;
     }
+
     .intro__actions {
         justify-content: center;
     }
@@ -252,6 +261,23 @@
     .container {
         padding: 0 20px;
     }
+}
+
+
+@media (max-width: 459.98px) {
+    .products__block {
+        min-width: 300px;
+    }
+}
+
+@media (max-width: 350.98px) {
+    .intro__title{
+        font-size: 35px;
+    }
+    .intro__text {
+        font-size: 10px;
+    }
+
 }
 
 
