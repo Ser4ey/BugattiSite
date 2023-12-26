@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+#section__service,
+#section__catalog,
+#section__news {
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
 a {
     text-decoration: none;
     color: #ffffff;
@@ -173,7 +180,6 @@ body {
     gap: 30px;
 }
 
-
 .intro {
     background-image: url(../img/intro_image.jpg);
     height: 720px;
@@ -183,6 +189,7 @@ body {
     position: relative;
     margin-bottom: 80px;
 }
+
 .intro:after{
     content: "";
     position: absolute;
