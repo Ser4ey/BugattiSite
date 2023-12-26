@@ -323,6 +323,7 @@ body {
 
 .info__image {
     border-radius: 20px 0 0 20px;
+    max-width: 600px;
 }
 
 .block__title {
