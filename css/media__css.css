@@ -91,6 +91,13 @@
 }
 
 @media (max-width: 785.8px) {
+    #section__service,
+    #section__catalog,
+    #section__news {
+        padding-top: 40px;
+        margin-top: -40px;
+    }
+
     .intro__wrapper {
         justify-content: center;
     }

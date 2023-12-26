@@ -157,12 +157,8 @@ body {
     line-height: 1;
 }
 
-.nav__link.active {
-    color: #C7A17A;
-}
-
 .nav__link:hover {
-    color: #DB331B;
+    color: #C7A17A;
 }
 
 
